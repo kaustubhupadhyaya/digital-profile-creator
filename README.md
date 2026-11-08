@@ -14,6 +14,17 @@ v0.1 is a working skeleton, not a research pipeline. It covers ingest, index,
 style measurement, retrieval, prompt assembly, and a self-check. It does not
 include model calls, fine-tuning, embeddings, voice cloning, or a web UI.
 
+## Documentation
+
+- [docs/method.md](docs/method.md): data classes, grouped 80/20 split, leakage
+  controls, LoRA fine-tune, voice-clone setup, and evaluation design.
+- [docs/results.md](docs/results.md): the measured classifier, fine-tune, voice,
+  and blind-test results, with the 4-of-12 tie stated as a tie.
+- [docs/limitations.md](docs/limitations.md): corpus and register limits, voice
+  limits, and what is not reproduced.
+- [docs/synthetic-eval.md](docs/synthetic-eval.md): the public `twin.py eval`
+  check on the fictional demo corpus.
+
 ## Requirements
 
 - Python 3.10 or newer
